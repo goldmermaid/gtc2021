@@ -2,7 +2,7 @@
 ----
 
 # Dive into Deep Learning:
-### Code Side-by-Side with MXNet, PyTorch & TensorFlow
+## Code Side-by-Side with MXNet, PyTorch & TensorFlow
 
 Speaker: Rachel Hu (AWS AI)
 
@@ -48,7 +48,7 @@ In this training, we are going to provide an overview of the in-depth convolutio
 | Topics | Slides |
 | --- | --- |
 | Dive into Deep Learning | [Slides](slides/DL.pdf) |
-| AlexNet (MXNet | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/Notebooks/Alexnet-mxnet.ipynb) |
+| AlexNet (MXNet) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/Notebooks/Alexnet-mxnet.ipynb) |
 
 
 
