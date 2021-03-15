@@ -53,85 +53,9 @@ In this training, we are applying AlexNet directly on Fashion-MNIST dataset, wit
 
 | Topics |  |  |
 | --- | --- | --- |
-| AlexNet Overview | [Slides](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/overview.slides.html) | 
-| AlexNet (MXNet) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/notebooks/alexnet-mxnet.ipynb) | [Nbviewer](notebooks/alexnet-mxnet.slides.html)|
-| AlexNet (PyTorch) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/notebooks/alexnet-torch.ipynb) | [Nbviewer](notebooks/alexnet-torch.slides.html)|
-
-## AlexNet
-
-AlexNet, which employed an 8-layer CNN,
-won the ImageNet Large Scale Visual Recognition Challenge 2012
-by a phenomenally large margin.
-This network showed, for the first time,
-that the features obtained by learning can transcend manually-designed features, breaking the previous paradigm in computer vision.
-
-
-The architectures of AlexNet and LeNet are very similar, as we illustrate below.
-
-<center><img src="https://d2l.ai/_images/alexnet.svg" alt="Drawing" style="width: 300px;"/></center>
-
-
-Note that we provide a slightly streamlined version of AlexNet
-removing some of the design quirks that were needed in 2012
-to make the model fit on two small GPUs.
-
-
-The design philosophies of AlexNet and LeNet are very similar,
-but there are also significant differences.
-First, AlexNet is much deeper than the comparatively small LeNet5.
-AlexNet consists of eight layers: five convolutional layers,
-two fully-connected hidden layers, and one fully-connected output layer. Second, AlexNet used the ReLU instead of the sigmoid
-as its activation function.
-Let us delve into the details below.
-
-### Architecture
-
-In AlexNet's first layer, the convolution window shape is $11\times11$.
-Since most images in ImageNet are more than ten times higher and wider
-than the MNIST images,
-objects in ImageNet data tend to occupy more pixels.
-Consequently, a larger convolution window is needed to capture the object.
-The convolution window shape in the second layer
-is reduced to $5\times5$, followed by $3\times3$.
-In addition, after the first, second, and fifth convolutional layers,
-the network adds maximum pooling layers
-with a window shape of $3\times3$ and a stride of 2.
-Moreover, AlexNet has ten times more convolution channels than LeNet.
-
-After the last convolutional layer there are two fully-connected layers
-with 4096 outputs.
-These two huge fully-connected layers produce model parameters of nearly 1 GB.
-Due to the limited memory in early GPUs,
-the original AlexNet used a dual data stream design,
-so that each of their two GPUs could be responsible
-for storing and computing only its half of the model.
-Fortunately, GPU memory is comparatively abundant now,
-so we rarely need to break up models across GPUs these days
-(our version of the AlexNet model deviates
-from the original paper in this aspect).
-
-### Activation Functions
-
-Besides, AlexNet changed the sigmoid activation function to a simpler ReLU activation function. On one hand, the computation of the ReLU activation function is simpler. For example, it does not have the exponentiation operation found in the sigmoid activation function.
- On the other hand, the ReLU activation function makes model training easier when using different parameter initialization methods. This is because, when the output of the sigmoid activation function is very close to 0 or 1, the gradient of these regions is almost 0, so that backpropagation cannot continue to update some of the model parameters. In contrast, the gradient of the ReLU activation function in the positive interval is always 1. Therefore, if the model parameters are not properly initialized, the sigmoid function may obtain a gradient of almost 0 in the positive interval, so that the model cannot be effectively trained.
-
-### Capacity Control and Preprocessing
-
-AlexNet controls the model complexity of the fully-connected layer
-by [dropout](https://d2l.ai/chapter_multilayer-perceptrons/dropout.html),
-while LeNet only uses weight decay.
-To [augment the data](https://d2l.ai/chapter_computer-vision/image-augmentation.html) even further, the training loop of AlexNet
-added a great deal of image augmentation,
-such as flipping, clipping, and color changes.
-This makes the model more robust and the larger sample size effectively reduces overfitting.
-
-## Coding side-by-side
-
-| Topics |  |
-| --- | --- |
-| AlexNet Overview | [D2L Book](https://d2l.ai/chapter_convolutional-modern/alexnet.html#alexnet) |
-| AlexNet (MXNet) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/Notebooks/Alexnet-mxnet.ipynb) |
-| AlexNet (PyTorch) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/alexnet-torch.ipynb) |
+| AlexNet Overview | [Slides](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/overview.ipynb) | 
+| AlexNet (MXNet) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-mxnet.ipynb) | [Nbviewer](notebooks/alexnet-mxnet.slides.html)|
+| AlexNet (PyTorch) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-torch.ipynb) | [Nbviewer](notebooks/alexnet-torch.slides.html)|
 
 ### Bonus Resources
 
