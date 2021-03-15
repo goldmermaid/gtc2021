@@ -41,9 +41,10 @@ Here are a few concepts that will be the prerequistes for this lecture. Take a l
 
 | title                               |  notes    |  slides    |
 | ------------------------------ | ---- | ---- |
-| Data Manipulation with Ndarray | [D2L](https://d2l.ai/chapter_preliminaries/ndarray.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/) |
-| Multilayer Perceptron (MLP) | [D2L](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
-| Softmax Regression | [D2L](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | [nbviewer](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
+| Data Manipulation with Ndarray | [D2L Book](https://d2l.ai/chapter_preliminaries/ndarray.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/) |
+| Multilayer Perceptron (MLP) | [D2L Book](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
+| Softmax Regression | [D2L Book](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
+| Fundamental of Convolutional Neural Networks | [D2L Book](https://d2l.ai/chapter_convolutional-neural-networks/index.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
 
 
 ## Syllabus
@@ -146,11 +147,3 @@ We will discuss data augmentation in greater detail in :numref:`sec_image_augmen
 
 ### Q&A 
 If you have any question, please leave us a message at our [discussion forum](https://discuss.d2l.ai/). Have fun diving into deep learning!
-
-```{.python .input}
-
-# | Fundamental of Convolutional Neural Networks | [Slides](slides/CNN.pdf), [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
-# | Intro to Natural Language Processing | [Slides](slides/NLP.pdf) |
-# | TextCNN on Sentiment Analysis | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/textCNN.ipynb) |
-# | Resources and Q&A | [Links](#Resources-and-Q&A ) | 
-```
