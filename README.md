@@ -53,9 +53,9 @@ In this training, we are applying AlexNet directly on Fashion-MNIST dataset, wit
 
 | Topics |  |  |
 | --- | --- | --- |
-| AlexNet Overview | [D2L Book](https://d2l.ai/chapter_convolutional-modern/alexnet.html#alexnet) | 
-| AlexNet (MXNet) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/Notebooks/Alexnet-mxnet.ipynb) | [Nbviewer](notebooks/alexnet-mxnet.slides.html)|
-| AlexNet (PyTorch) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/alexnet-torch.ipynb) | [Nbviewer](notebooks/alexnet-torch.slides.html)|
+| AlexNet Overview | [Slides](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/overview.slides.html) | 
+| AlexNet (MXNet) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/notebooks/alexnet-mxnet.ipynb) | [Nbviewer](notebooks/alexnet-mxnet.slides.html)|
+| AlexNet (PyTorch) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/notebooks/alexnet-torch.ipynb) | [Nbviewer](notebooks/alexnet-torch.slides.html)|
 
 ## AlexNet
 
