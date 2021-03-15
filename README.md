@@ -118,14 +118,12 @@ Besides, AlexNet changed the sigmoid activation function to a simpler ReLU activ
 ### Capacity Control and Preprocessing
 
 AlexNet controls the model complexity of the fully-connected layer
-by dropout (:numref:`sec_dropout`),
+by [dropout](https://d2l.ai/chapter_multilayer-perceptrons/dropout.html),
 while LeNet only uses weight decay.
-To augment the data even further, the training loop of AlexNet
+To [augment the data](https://d2l.ai/chapter_computer-vision/image-augmentation.html) even further, the training loop of AlexNet
 added a great deal of image augmentation,
 such as flipping, clipping, and color changes.
 This makes the model more robust and the larger sample size effectively reduces overfitting.
-We will discuss data augmentation in greater detail in :numref:`sec_image_augmentation`.
-
 
 ## Coding side-by-side
 
