@@ -40,12 +40,10 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 
 Here are a few concepts that will be the prerequistes for this lecture. Take a look if some of them are not familiar to you! :)
 
-| Title                               |   Notes    | 
-| ------------------------------ | ---- |
-| Data Manipulation with Ndarray | [D2L Book](https://d2l.ai/chapter_preliminaries/ndarray.html) |
-| Multilayer Perceptron (MLP) | [D2L Book](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | 
-| Softmax Regression | [D2L Book](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | 
-| Fundamental of Convolutional Neural Networks | [D2L Book](https://d2l.ai/chapter_convolutional-neural-networks/index.html) |
+- [Data Manipulation with Ndarray](https://d2l.ai/chapter_preliminaries/ndarray.html)
+- [Multilayer Perceptron (MLP)](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html)
+- [Softmax Regression](https://d2l.ai/chapter_linear-networks/softmax-regression.html) 
+- [Fundamental of Convolutional Neural Networks](https://d2l.ai/chapter_convolutional-neural-networks/index.html)
 
 
 ## Syllabus
