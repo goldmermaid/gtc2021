@@ -40,12 +40,12 @@ To fulfill the strong wishes of simpler but more practical deep learning materia
 
 Here are a few concepts that will be the prerequistes for this lecture. Take a look if some of them are not familiar to you! :)
 
-| title                               |  notes    |  slides    |
+| Title                               |  Reviwew Notes    | 
 | ------------------------------ | ---- | ---- |
-| Data Manipulation with Ndarray | [D2L Book](https://d2l.ai/chapter_preliminaries/ndarray.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/1-ndarray.ipynb#/) |
-| Multilayer Perceptron (MLP) | [D2L Book](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/9-mlp-gluon.ipynb#/) |
-| Softmax Regression | [D2L Book](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/mli/d2l-1day-notebooks/blob/master/notebooks-1/7-softmax-regression-gluon.ipynb#/) |
-| Fundamental of Convolutional Neural Networks | [D2L Book](https://d2l.ai/chapter_convolutional-neural-networks/index.html) | [Jupyter Notebook](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2020/blob/master/Notebooks/convolutions.ipynb) |
+| Data Manipulation with Ndarray | [D2L Book](https://d2l.ai/chapter_preliminaries/ndarray.html) |
+| Multilayer Perceptron (MLP) | [D2L Book](https://d2l.ai/chapter_multilayer-perceptrons/mlp.html) | 
+| Softmax Regression | [D2L Book](https://d2l.ai/chapter_linear-networks/softmax-regression.html) | 
+| Fundamental of Convolutional Neural Networks | [D2L Book](https://d2l.ai/chapter_convolutional-neural-networks/index.html) |
 
 
 ## Syllabus
@@ -55,9 +55,9 @@ In this training, we are applying AlexNet directly on Fashion-MNIST dataset, wit
 | Topics |  |  | Time |
 | --- | --- | --- | --- |
 | Overview (AlexNet, D2L) | | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/overview.slides.html#/)| 20 min |
-| AlexNet (PyTorch) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-torch.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-torch.slides.html#/)| 10 min |
-| AlexNet (MXNet) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
-| AlexNet (TensorFlow) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
+| AlexNet (PyTorch) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-torch.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-torch.slides.html#/)| 10 min |
+| AlexNet (MXNet) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
+| AlexNet (TensorFlow) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
 
 ### Bonus Resources
 
