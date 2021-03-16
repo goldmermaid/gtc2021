@@ -1,3 +1,4 @@
+None
 #### GTC2021 Tutorial S31692
 ----
 
@@ -51,11 +52,12 @@ Here are a few concepts that will be the prerequistes for this lecture. Take a l
 
 In this training, we are applying AlexNet directly on Fashion-MNIST dataset, with 3 frameworks side-by-side.
 
-| Topics |  |  |
-| --- | --- | --- |
-| AlexNet Overview | [Slides](https://nbviewer.jupyter.org/format/slides/github/goldmermaid/gtc2021/blob/master/overview.ipynb) | 
-| AlexNet (MXNet) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-mxnet.ipynb) | [Nbviewer](notebooks/alexnet-mxnet.slides.html)|
-| AlexNet (PyTorch) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-torch.ipynb) | [Nbviewer](notebooks/alexnet-torch.slides.html)|
+| Topics |  |  | Time |
+| --- | --- | --- | --- |
+| Overview (AlexNet, D2L) | | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/overview.slides.html#/)| 20 min |
+| AlexNet (PyTorch) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-torch.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-torch.slides.html#/)| 10 min |
+| AlexNet (MXNet) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
+| AlexNet (TensorFlow) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
 
 ### Bonus Resources
 
