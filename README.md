@@ -10,13 +10,11 @@ Speaker: Rachel Hu (AWS AI)
 ---
 
 
-Deep learning is transforming the world nowadays... 
-
 <center><img src="img/mxnet_pytorch_tf_transp.png" alt="Drawing" style="width: 400px;"/></center>
 
 
 
-To fulfill the strong wishes of simpler but more practical deep learning materials, [Dive into Deep Learning](https://d2l.ai/), a unified resource of deep learning was born to achieve the following goals:
+Deep learning is transforming the world nowadays, but which framework shall we get started with? To fulfill the strong wishes of simpler but more practical deep learning materials, [Dive into Deep Learning](https://d2l.ai/), a unified resource of deep learning was born to achieve the following goals:
 
 - Adopt the 3 most popular deep leraning frameworks: MXNet, PyTorch and TensorFlow;
 
@@ -55,7 +53,7 @@ In this training, we are applying AlexNet directly on Fashion-MNIST dataset, wit
 | Overview (AlexNet, D2L) | | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/overview.slides.html#/)| 20 min |
 | AlexNet (PyTorch) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-torch.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-torch.slides.html#/)| 10 min |
 | AlexNet (MXNet) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
-| AlexNet (TensorFlow) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-mxnet.slides.html#/)| 5 min |
+| AlexNet (TensorFlow) | [Jupyter Notebook](https://github.com/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-tensorflow.ipynb) | [Nbviewer Slides](https://nbviewer.jupyter.org/github/goldmermaid/gtc2021/blob/main/Notebooks/alexnet-tensorflow.slides.html#/)| 5 min |
 
 ### Bonus Resources
 
